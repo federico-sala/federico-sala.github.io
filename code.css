@@ -1,0 +1,26 @@
+.table1, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table1{
+    width: 30%;
+    margin-top: 2%;
+}
+
+.first_line{
+    background-color: rgb(255, 246, 169);
+}
+
+.title1{
+    color: darkgoldenrod;
+}
+
+.Names{
+    font-weight: bold;
+}
+
+.Images{
+    max-width:50%;
+}
