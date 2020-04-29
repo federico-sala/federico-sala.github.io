@@ -21,6 +21,10 @@
     font-weight: bold;
 }
 
+.Advice{
+    font-style: oblique;
+}
+
 .Images{
     max-width:50%;
 }
