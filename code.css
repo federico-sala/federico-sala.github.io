@@ -1,3 +1,11 @@
+.Body{
+    background-color: rgb(241, 236, 185);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .table1, th, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -5,8 +13,10 @@
 }
 
 .table1{
-    width: 30%;
+    width: 400px;
     margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first_line{
@@ -25,6 +35,16 @@
     font-style: oblique;
 }
 
-.Images{
-    max-width:50%;
+.h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(139, 108, 28);
+    font-style: italic;
+}
+
+.Carousel_Images{
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

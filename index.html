@@ -2,12 +2,39 @@
 <html>
 <head>
     <title>Pagina Federico S.</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="code.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="Body">
 
-    <h1 class="title1">Classifica 5 Uomini più ricchi al mondo</h1>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="../index.html" tabindex="-1" aria-disabled="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <span class="page-link">
+            Pagina Corrente
+            <span class="sr-only">(current)</span>
+          </span>
+        </li>
+        <li class="page-item"><a class="page-link" href="classifica_uomini_piu_ricchi/jeff-bezos.html">Jeff Bezos</a></li>
+        <li class="page-item"><a class="page-link" href="classifica_uomini_piu_ricchi/bill-gates.html">Bill Gates</a></li>
+        <li class="page-item"><a class="page-link" href="classifica_uomini_piu_ricchi/bernard-arnault.html">Bernard Arnault</a></li>
+        <li class="page-item"><a class="page-link" href="classifica_uomini_piu_ricchi/mark-zuckerberg.html">Mark Zuckerberg</a></li>
+        <li class="page-item"><a class="page-link" href="classifica_uomini_piu_ricchi/warren-buffett.html">Warren Buffett</a></li>
+        <li class="page-item">
+          <a class="page-link" href="classifica_uomini_piu_ricchi/jeff-bezos.html" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1 class="title1">Classifica 5 Uomini Più Ricchi al Mondo</h1>
     <p>Ecco i 5 uomini più ricchi al mondo secondo Forbes</p>
     <a href="https://www.forbes.com/real-time-billionaires/#1782697a3d78" target="_blank">Link per articolo Forbes</a>
     
@@ -28,7 +55,7 @@
                  Amazon
                 </a>
              </td>
-            <td>$145.3 miliardi </td>
+            <td>$147.3 miliardi </td>
         </tr>
         <tr>
             <td>2</td>
@@ -40,7 +67,7 @@
                  Microsoft
                 </a>
             </td>
-            <td>$104.2 miliardi</td>
+            <td>$106.2 miliardi</td>
         </tr>
         <tr>
             <td>3</td>
@@ -51,21 +78,10 @@
                     LVMH
                 </a>
             </td>
-            <td>$91.3 miliardi</td>
+            <td>$93.7 miliardi</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Warren Buffet</td>
-            <td>USA</td>
-            <td>
-                <a href="https://it.wikipedia.org/wiki/Berkshire_Hathaway" target="_blank">
-                 Berkshire Hataway
-                </a>
-            </td>
-            <td>$73.9 miliardi</td>
-        </tr>
-        <tr>
-            <td>5</td>
             <td>Mark Zuckerberg</td>
             <td>USA</td>
             <td>
@@ -73,46 +89,88 @@
                  Facebook
                 </a>
             </td>
-            <td>$71.1 miliardi</td>
+            <td>$87,8 miliardi</td>
          </tr>
-
+         <tr>
+          <td>5</td>
+          <td>Warren Buffett</td>
+          <td>USA</td>
+          <td>
+              <a href="https://it.wikipedia.org/wiki/Berkshire_Hathaway" target="_blank">
+               Berkshire Hataway
+              </a>
+          </td>
+          <td>$73.9 miliardi</td>
+      </tr>
     </table>
+
     <br>
-
-    <p class="Advice">Clicca sulle immagini per maggiori informazioni su questi</p>
-
-    <p class="Names">1.Jeff Bezos</p>
-    <a href="https://it.wikipedia.org/wiki/Jeff_Bezos" target="_blank">
-        <img class="Images" src="https://img.jakpost.net/c/2020/02/18/2020_02_18_86871_1581998411._large.jpg" alt="Immagine Jeff Bezos">
-    </a>
     
+    <h3 class="h2">LOGHI DELLE AZIENDE</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="Carousel_Images" src="https://www.investireoggi.it/economia/wp-content/uploads/sites/11/2019/06/Offerte-Natale-2018-Amazon-per-lui-e-per-lei.-I-migliori-articoli.jpg" class="d-block w-100" alt="Logo Amazon">          
+        </div>
+          <div class="carousel-item">
+            <img class="Carousel_Images" src="https://static.cwi.it/wp-content/uploads/2017/12/microsoft-logo-redwest-a-100611028-large.jpeg" class="d-block w-100" alt="Logo Microsoft">
+        </div>
+          <div class="carousel-item">
+            <img class="Carousel_Images" src="https://lh3.googleusercontent.com/proxy/K37RYNd8ojD65A2vMwmgsfIEkNCx-Wvl-3692EeCezZj0s051VqiaHdl4RsYqmzORlvbiuXlIMwIJhqjG3VGjG91cN_Bf6qn8vDqqGPUoho01f5eU9_N97k_OAmp9FCCrtnTfX5Y" class="d-block w-100" alt="Logo LVHM">
+        </div>
+          <div class="carousel-item">
+          <img class="Carousel_Images" src="https://www.lavocedeltrentino.it/wp-content/uploads/2018/11/facebook.jpg" class="d-block w-100" alt="Logo Facebook">
+        </div>
+          <div class="carousel-item">
+            <img class="Carousel_Images" src="https://www.macitynet.it/wp-content/uploads/2019/05/berkshire-hathaway-brand-of-the-year-large-9-696x391.jpg" class="d-block w-100" alt="Logo Berkshire Hataway">
+        </div>          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+        
+    </div>
+
     <br>
+    
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Pagina Principale</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="classifica_uomini_piu_ricchi/jeff-bezos.html">Jeff Bezos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="classifica_uomini_piu_ricchi/bill-gates.html">Bill gates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="classifica_uomini_piu_ricchi/bernard-arnault.html">Bernard Arnault</a>    
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="classifica_uomini_piu_ricchi/mark-zuckerberg.html">Mark Zuckerberg</a>    
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="classifica_uomini_piu_ricchi/warren-buffett.html">Warren BuffettS</a>    
+      </li>      
+    </ul>
 
-    <p class="Names">2.Bill Gates</p>
-    <a href="https://it.wikipedia.org/wiki/Bill_Gates" target="_blank">
-        <img class="Images" src="https://www.lasicilia.it/resizer/1200/720/true/1587830211173.jpg--coronavirus__bill_gates___il_vaccino_lo_finanzio_io_.jpg?1587830211000" alt="Immagine Bill Gates">
-    </a>
-
-    <br>
-
-    <p class="Names">3.Bernard Arnault</p>
-    <a href="https://it.wikipedia.org/wiki/Bernard_Arnault" target="_blank">
-        <img class="Images" src="https://www.startupmag.it/wp-content/uploads/2019/10/bernard-arnault-1174880.jpg" alt="Immagine Bernard Arnaul">
-    </a>
-
-    <br>
-
-    <p class="Names">4.Warren Buffet</p>
-    <a href="https://it.wikipedia.org/wiki/Warren Buffet" target="_blank">
-        <img class="Images" src="https://s.yimg.com/ny/api/res/1.2/PbuC7UcirW9OMIkmJDYtzA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAwO2lsPXBsYW5l/http://globalfinance.zenfs.com/it_IT/Finance/trendonline/o.541378.817411.jpg" alt="Immagine Warren Buffet">
-    </a>
-
-    <br>
-
-    <p class="Names">5.Mark Zuckerberg</p>
-    <a href="https://it.wikipedia.org/wiki/Mark_Zuckerberg" target="_blank">
-        <img class="Images" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Mark_Zuckerberg_F8_2018_Keynote_%28cropped%29.jpg" alt="Immagine Mark Zuckerberg">
-    </a>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
